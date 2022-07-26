@@ -13,7 +13,7 @@ for (x,y,w,z) in faces:
     final_images = cv2.rectangle(img, (x,y),(x+w,y+z), (0,250,0)
     ,5)
     
-    cv2.imshow("sexy munda",final_images)
+    cv2.imshow("smart",final_images)
     cv2.waitKey(0)
     cv2.destroyALLWindows
     
